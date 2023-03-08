@@ -16,6 +16,7 @@ resource "azurerm_resource_group" "RG1" {
   tags = {
     "Envornment" = "prod"
     "Prodcut" = "Webservers"
+    "cost-center" = "SA000012"
   }
 }
 resource "azurerm_virtual_network" "Vnet1" {
